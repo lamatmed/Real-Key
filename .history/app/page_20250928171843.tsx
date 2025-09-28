@@ -10,7 +10,7 @@ export default function Home() {
       <Hero/>
       <FeaturedProperties/>
       <WhatClientWant/>
-     
+      <div className="mt-6"></div>
       <WhatWeDo/>
       <ConnectingPeople/>
     </div>

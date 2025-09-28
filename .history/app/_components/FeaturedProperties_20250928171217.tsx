@@ -72,41 +72,7 @@ function FeaturedProperties() {
                 </div>
             )}
 
-            {/* Section Statistiques */}
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 py-16'>
-                <div className='flex flex-col items-center justify-center p-8 rounded-3xl bg-gradient-to-br from-[#f9e0e0] to-white shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-[#e04141]/10'>
-                    <div className='w-16 h-16 bg-[#e04141]/20 rounded-2xl flex items-center justify-center mb-4'>
-                        <Home className='w-8 h-8 text-[#e04141]' />
-                    </div>
-                    <h3 className='text-5xl font-bold text-[#e04141] mb-2'>500+</h3>
-                    <p className="text-gray-600 text-center font-medium">Biens listés</p>
-                </div>
-
-                <div className='flex flex-col items-center justify-center p-8 rounded-3xl bg-gradient-to-br from-green-50 to-white shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-green-100'>
-                    <div className='w-16 h-16 bg-green-100 rounded-2xl flex items-center justify-center mb-4'>
-                        <Users className='w-8 h-8 text-green-600' />
-                    </div>
-                    <h3 className='text-5xl font-bold text-green-600 mb-2'>200+</h3>
-                    <p className="text-gray-600 text-center font-medium">Clients satisfaits</p>
-                </div>
-
-                <div className='flex flex-col items-center justify-center p-8 rounded-3xl bg-gradient-to-br from-amber-50 to-white shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-amber-100'>
-                    <div className='w-16 h-16 bg-amber-100 rounded-2xl flex items-center justify-center mb-4'>
-                        <UserCheck className='w-8 h-8 text-amber-600' />
-                    </div>
-                    <h3 className='text-5xl font-bold text-amber-600 mb-2'>100+</h3>
-                    <p className="text-gray-600 text-center font-medium">Agents experts</p>
-                </div>
-
-                <div className='flex flex-col items-center justify-center p-8 rounded-3xl bg-gradient-to-br from-blue-50 to-white shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-blue-100'>
-                    <div className='w-16 h-16 bg-blue-100 rounded-2xl flex items-center justify-center mb-4'>
-                        <MapPin className='w-8 h-8 text-blue-600' />
-                    </div>
-                    <h3 className='text-5xl font-bold text-blue-600 mb-2'>50+</h3>
-                    <p className="text-gray-600 text-center font-medium">Villes couvertes</p>
-                </div>
-            </div>
-          
+           
         </section>
     )
 }

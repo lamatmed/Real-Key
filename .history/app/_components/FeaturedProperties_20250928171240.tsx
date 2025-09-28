@@ -106,7 +106,7 @@ function FeaturedProperties() {
                     <p className="text-gray-600 text-center font-medium">Villes couvertes</p>
                 </div>
             </div>
-          
+            
         </section>
     )
 }

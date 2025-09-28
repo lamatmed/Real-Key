@@ -6,7 +6,7 @@ import React from 'react'
 
 function WhatClientWant() {
   return (
-   <div className='relative w-full py-8 lg:py-0 lg:h-[600px]'>
+   <div className='relative min-h-screen lg:h-[300px] w-full'>
 
         <Image 
           alt='hero' 
@@ -19,14 +19,14 @@ function WhatClientWant() {
       <div className='absolute inset-0 bg-black/70 z-10'></div>
     
    
-    <div className='relative z-20 flex flex-col justify-center py-8 lg:py-0 lg:absolute lg:inset-0'>
+    <div className='absolute inset-0 z-20 flex flex-col justify-start lg:justify-center pt-16 lg:pt-0'>
       <div className='flex items-center justify-center'>
         <h1 className='text-3xl md:text-[45px] font-bold mb-6 text-white text-center px-4'>   
           Que recherchez-vous ?
         </h1>
       </div>
       
-      <div className='grid grid-cols-1 lg:grid-cols-3 text-white gap-4 lg:gap-6 text-center px-4 lg:px-24'>
+      <div className='grid grid-cols-1 lg:grid-cols-3 text-white gap-4 lg:gap-6 text-center px-4 lg:p-24 pb-8'>
 
         <div className='p-4 lg:p-6 flex flex-col items-center h-auto lg:h-[400px] justify-center bg-black/70 rounded-lg'>
           <House className="w-12 h-12 md:w-16 md:h-16 lg:w-[85px] lg:h-[85px]"/>
